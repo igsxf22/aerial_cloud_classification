@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/username/repo/blob/branch/notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/username/repo/blob/branch/notebook.ipynb](https://github.com/igsxf22/aerial_cloud_classification/blob/main/Aerial_Clouds_Clear_Classification_Experiment.ipynb))
 
 
 # Aerial Cloud Classification
