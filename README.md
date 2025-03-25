@@ -11,10 +11,9 @@ This project uses YOLOv11n classification model with open-source labeled dataset
 Limitations: Doesn't work well on clear images where you can see the horizon - its intended mostly for steep or nadir image angles
 
 Datasets:
-  - [Huggingface: neerajxa/Aerial-Image](https://huggingface.co/datasets/neerajx0/Aerial-Image)<br><br>
-    > 4500 images: 45 classes with 100 images each, including one 'cloud' category<br>
+  - [RESISC45 data from HuggingFace](https://huggingface.co/datasets/tanganke/resisc4)
+    > 31,500 images, 45 classes, including one 'cloud' category<br>
     > 256x256 RGB<br>
-    > This appears to be a subset of the [RESISC45 dataset](https://github.com/tensorflow/datasets/blob/master/docs/catalog/resisc45.md) but is labeled AID
   - [TJNU-Ground-based-Cloud-Dataset](https://github.com/shuangliutjnu/TJNU-Ground-based-Cloud-Dataset/tree/main)
     > 19000 images: 7 classes, 6 for different types of clouds and 1 for clear sky.<br>
     > 512x512 RGB
@@ -22,10 +21,7 @@ Datasets:
 Merged dataset:
   - **Clouds**: the one cloud class from the aerial dataset and the 6 cloud classes from the ground dataset
   - **Clear**: the 44 other classes from the aerial dataset showing land features and the 1 "clear sky" class from the ground-based cloud dataset
-  - Totals after sampling and merging sources:
-    * Clouds - Train: 2207   Val: 475   Test: 474
-    * Clear - Train: 2148   Val: 461   Test: 461
-    * 256x256 RGB
+  - Resized the cloud dataset to the res45 image size of 256x256 RGB
 
 Inference against drone video, not part of dataset:
 
