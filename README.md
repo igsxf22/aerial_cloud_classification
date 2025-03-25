@@ -1,7 +1,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/username/repo/blob/branch/notebook.ipynb](https://github.com/igsxf22/aerial_cloud_classification/blob/main/Aerial_Clouds_Clear_Classification_Experiment.ipynb))
 
 
-# Aerial Cloud Classification
+# Aerial Cloud / Clear Classification
 Research project - create a prototype classification model to identify cloudy and clear aerial imagery frames, without a purpose-made "cloud" vs "clear" dataset, using only publicly available data.
 
 This project uses YOLOv11n classification model with open-source labeled datasets to create a small, binary classification model for "clouds" or "clear". 
