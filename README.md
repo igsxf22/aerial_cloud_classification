@@ -5,6 +5,8 @@ This project uses YOLOv11n classification model with open-source labeled dataset
 
 > Since we don't actually want to label any data, we'll jam together a nice ground-to-sky angle dataset of different types of clouds, which usually fill the entire frame, with an aerial land use dataset, which has limited or no clouds in the frames.
 
+Limitations: Doesn't work well on clear images where you can see the horizon - its intended mostly for steep or nadir image angles
+
 Datasets:
   - [Huggingface: neerajxa/Aerial-Image](https://huggingface.co/datasets/neerajx0/Aerial-Image)<br><br>
     > 4500 images: 45 classes with 100 images each, including one 'cloud' category<br>
@@ -25,6 +27,7 @@ Merged dataset:
 Inference against drone video, not part of dataset:
 
 ![Video Test Results](https://github.com/igsxf22/aerial_cloud_classification/blob/main/cloud_class_test_640.gif)
+<br>`source: https://www.youtube.com/watch?v=1DOc8aZDtGU`
 
 Inference against random test set sample:
 ![Mosaic Test Results)](https://github.com/igsxf22/aerial_cloud_classification/blob/main/mosaic.jpg)
