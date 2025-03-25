@@ -1,3 +1,6 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/username/repo/blob/branch/notebook.ipynb)
+
+
 # Aerial Cloud Classification
 Research project - create a prototype classification model to identify cloudy and clear aerial imagery frames, without a purpose-made "cloud" vs "clear" dataset, using only publicly available data.
 
